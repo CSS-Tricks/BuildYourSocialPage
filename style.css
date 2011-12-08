@@ -1,0 +1,48 @@
+/*
+		 Chris Coyier
+		 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+body { 
+	font: 14px Georgia, Serif;
+}
+
+a { 
+	outline: 0; 
+}
+img, a img { 
+	border: 0; 
+}
+
+h1 { 
+	font-weight: normal; 
+}
+h2 { 
+	font: bold 32px Sans-Serif;
+	margin: 0 0 10px 0; 
+}
+
+#page-wrap { 
+	width: 960px; 
+	margin: 80px auto; 
+}
+
+#twitter, #flickr, #dribbble { 
+	width: 27%; 
+	margin: 0 2% 0 0; 
+	padding: 2%;
+	float: left; 
+	background: #fff7cc;
+	border: 1px solid #ecd869;
+}
+
+img.profile-pic { float: left; padding: 5px; }
+
+#flickr img, #dribbble img, #twitter img { width: 100px; margin: 10px; }
+
+.tweet { 
+	padding: 10px; 
+	margin: 5px 0;
+	background: white;
+}
